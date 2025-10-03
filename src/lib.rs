@@ -11,6 +11,7 @@
 pub mod dimensions;
 pub mod fields;
 pub mod groups;
+pub mod lattice;
 pub mod linear;
 pub mod operations;
 pub mod primitives;
@@ -22,6 +23,7 @@ pub mod spaces;
 pub use dimensions::*;
 pub use fields::*;
 pub use groups::*;
+pub use lattice::*;
 pub use linear::*;
 pub use operations::*;
 pub use rings::*;
